@@ -1,4 +1,5 @@
 module.exports = {
+  base:"/xjq2020616_blog_vuepress/",
   "title": "熊猫笔记",
   "description": "微笑面对毒打",
   "dest": "public",

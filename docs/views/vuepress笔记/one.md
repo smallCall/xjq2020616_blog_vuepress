@@ -6,7 +6,7 @@ tags:
  - 计算机
 categories:
  - technical
- - 技术
+ - 技术笔记
 ---
 
 # 第一个笔记
