@@ -6,12 +6,13 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
-  "repository": {
+    "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourname/vuepress_blog_template.git"
+    "url": "git+https://github.com/smallCall/xjq2020616_blog_vuepress.git"
   },
   "keywords": [],
   "dependencies": {

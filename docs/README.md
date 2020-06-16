@@ -1,15 +1,12 @@
 ---
 home: true
+heroImage: /女孩.jpg
 
-heroImage: /hero.png
 heroImageStyle: {
-  maxWidth: '600px',
+  height:'100%',
   width: '100%',
-  display: block,
-  margin: '9rem auto 2rem',
-  background: '#fff',
-  borderRadius: '1rem',
 }
+bgImage: '/女孩.jpg'
 bgImageStyle: {
   height: '450px'
 }
@@ -28,4 +25,6 @@ features:
   
 ---
 
-# 666666666666666666
+
+
+

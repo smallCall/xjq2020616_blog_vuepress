@@ -1,13 +1,14 @@
 module.exports = {
-  "title": "软件谈",
-  "description": "关注软件开发技术与创新应用",
+  "title": "愤怒的熊猫",
+  "description": "记录每一次的成长",
+  //指定 vuepress build 的输出目录
   "dest": "public",
   "head": [
     [
       "link",
       {
         "rel": "icon",
-        "href": "/favicon.ico"
+        "href": "/熊猫.png"
       }
     ],
     [
@@ -18,42 +19,46 @@ module.exports = {
       }
     ]
   ],
+  // 导航栏配置
   "theme": "reco",
   "themeConfig": {
     "nav": [
       {
-        "text": "Home",
+        "text": "首页",
         "link": "/",
         "icon": "reco-home"
       },
       {
-        "text": "TimeLine",
+        "text": "修改时间",
         "link": "/timeline/",
         "icon": "reco-date"
       },
       {
-        "text": "Contact",
+        "text": "关于",
         "icon": "reco-message",
         "items": [
           {
-            "text": "GitLab",
-            "link": "https://gitlab.com/bobyuan/",
+            "text": "GitHub",
+            "link": "https://github.com/smallCall?tab=repositories",
             "icon": "reco-gitlab"
           }
         ]
       }
     ],
+    //博客配置
     "type": "blog",
     "blogConfig": {
       "category": {
+        // 在导航栏菜单中所占的位置
         "location": 2,
-        "text": "Category"
+        "text": "分类"
       },
       "tag": {
         "location": 3,
-        "text": "Tag"
+        "text": "标签"
       }
     },
+    // 友情链接
     "friendLink": [
       {
         "title": "云应用系统开发技术",
@@ -67,17 +72,20 @@ module.exports = {
         "link": "https://www.recoluan.com"
       }
     ],
-	"logo": "/logo_trans.png",
+	 "logo": "/logo.png",
     "search": true,
+    //最大搜索数量
     "searchMaxSuggestions": 10,
     "sidebar": "auto",
-    "lastUpdated": "Last Updated",
-    "author": "Bob YUAN",
-    "authorAvatar": "/avatar.png",
+    "lastUpdated": "最后一次更新时间：",
+    "author": "panda",
+    //设置首页头像
+    "authorAvatar": "/大熊猫.png",
     //"record": "xxxx",
     "startYear": "2020"
   },
   "markdown": {
+    // 是否在每个代码块的左侧显示行号。
     "lineNumbers": false
   }
 }
