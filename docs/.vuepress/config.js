@@ -21,11 +21,57 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+     mode: 'light', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
+
     "nav": [
       {
-        "text": "主页",
+        "text": "首页",
         "link": "/",
         "icon": "reco-home"
+      },
+      {
+        "text": "前端",
+        "icon": "/web.png",
+        "items":[
+            {
+            "text": "Html笔记",
+            "link": "/views/Html笔记",
+            "icon": "reco-gitlab"
+          },
+          {
+            "text": "Css笔记",
+            "link": "/views/Css笔记",
+            "icon": "reco-gitlab"
+          },
+           {
+            "text": "JavaScript笔记",
+            "link": "/views/JavaScript笔记",
+            "icon": "reco-gitlab"
+          }
+        ]
+
+      },
+      {
+        "text": "前端",
+        "icon": "/web.png",
+        "items":[
+        {
+          "text": "Html笔记",
+          "link": "/views/Html笔记",
+          "icon": "reco-gitlab"
+        },
+        {
+          "text": "Css笔记",
+          "link": "/views/Css笔记",
+          "icon": "reco-gitlab"
+        },
+        {
+          "text": "JavaScript笔记",
+          "link": "/views/JavaScript笔记",
+          "icon": "reco-gitlab"
+        }
+        ]
+
       },
       {
         "text": "更新记录",
@@ -37,10 +83,20 @@ module.exports = {
         "icon": "reco-message",
         "items": [
           {
-            "text": "GitLab",
-            "link": "https://gitlab.com/bobyuan/",
+            "text": "GitHub",
+            "link": "https://github.com/smallCall?tab=repositories",
             "icon": "reco-gitlab"
-          }
+          },
+          {
+            "text": "bilibili",
+            "link": "https://www.bilibili.com/",
+            "icon": "reco-bilibili"
+          },
+          {
+            "text": "GitHub学习",
+            "link": "https://www.liaoxuefeng.com/wiki/896043488029600/897271968352576",
+            "icon": "reco-blog"
+          }         
         ]
       }
     ],
@@ -69,7 +125,7 @@ module.exports = {
       }
     ],
     // 
-	"logo": "/logo.png",
+	"logo": "/竹笋.png",
     "search": true,
     "searchMaxSuggestions": 10,
     "sidebar": "auto",
