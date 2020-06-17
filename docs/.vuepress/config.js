@@ -4,20 +4,28 @@ module.exports = {
   "description": "微笑面对毒打",
   "dest": "public",
   "head": [
-    [
-      "link",
-      {
-        "rel": "icon",
-        "href": "/熊猫.png"
-      }
-    ],
-    [
-      "meta",
-      {
-        "name": "viewport",
-        "content": "width=device-width,initial-scale=1,user-scalable=no"
-      }
-    ]
+  [
+  "link",
+  {
+    "rel": "icon",
+    "href": "/熊猫.png"
+  }
+  ],
+  [
+    "audio",
+    {
+      "autoplay": "",
+      "loop": "",
+      "src":"music/Kaze_Ni_Fukarete-福原遥.mp3"
+    }
+  ],
+  [
+    "meta",
+    {
+      "name": "viewport",
+      "content": "width=device-width,initial-scale=1,user-scalable=no"
+    }
+  ]
   ],
   "theme": "reco",
   "themeConfig": {
