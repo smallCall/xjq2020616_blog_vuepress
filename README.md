@@ -2,7 +2,7 @@
 
 This blog is setup using **vuepress-theme-reco**. A simple and beautiful VuePress Blog & Doc theme. 
 
-URL:  https://bobyuan.netlify.com/
+URL:  https://smallcall.github.io/xjq2020616_blog_vuepress/
 
 
 
