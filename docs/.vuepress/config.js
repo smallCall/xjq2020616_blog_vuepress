@@ -52,31 +52,21 @@ module.exports = {
 
       },
       {
-        "text": "前端",
+        "text": "后台",
         "icon": "/web.png",
         "items":[
         {
-          "text": "Html笔记",
-          "link": "/views/Html笔记",
+          "text": "计算机网络基础",
+          "link": "/views/计算机网络基础",
           "icon": "reco-gitlab"
         },
         {
-          "text": "Css笔记",
-          "link": "/views/Css笔记",
-          "icon": "reco-gitlab"
-        },
-        {
-          "text": "JavaScript笔记",
-          "link": "/views/JavaScript笔记",
+          "text": "Djiango笔记",
+          "link": "/views/Djiango笔记",
           "icon": "reco-gitlab"
         }
         ]
 
-      },
-      {
-        "text": "更新记录",
-        "link": "/timeline/",
-        "icon": "reco-date"
       },
       {
         "text": "学习海洋",
@@ -98,17 +88,22 @@ module.exports = {
             "icon": "reco-blog"
           }         
         ]
+      },      
+      {
+        "text": "更新记录",
+        "link": "/timeline/",
+        "icon": "reco-date"
       }
     ],
     "type": "blog",
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "分类"
+        "text": "笔记分类"
       },
       "tag": {
-        "location": 3,
-        "text": "标签"
+        "location": 2,
+        "text": "标签分类"
       }
     },
     "friendLink": [
