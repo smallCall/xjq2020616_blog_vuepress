@@ -15,7 +15,6 @@ module.exports = {
     "audio",
     {
       "autoplay": "",
-      "loop": "",
       "src":"music/Kaze_Ni_Fukarete-福原遥.mp3"
     }
   ],
