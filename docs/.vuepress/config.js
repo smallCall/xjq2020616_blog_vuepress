@@ -21,8 +21,8 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
-     mode: 'light', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
-
+     "mode": 'dark', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
+      "modePicker": false ,
     "nav": [
       {
         "text": "首页",
@@ -35,17 +35,17 @@ module.exports = {
         "items":[
             {
             "text": "Html笔记",
-            "link": "/views/Html笔记",
+            "link": "/views/Html笔记/",
             "icon": "reco-gitlab"
           },
           {
             "text": "Css笔记",
-            "link": "/views/Css笔记",
+            "link": "/views/Css笔记/",
             "icon": "reco-gitlab"
           },
            {
             "text": "JavaScript笔记",
-            "link": "/views/JavaScript笔记",
+            "link": "/views/JavaScript笔记/",
             "icon": "reco-gitlab"
           }
         ]
@@ -57,12 +57,12 @@ module.exports = {
         "items":[
         {
           "text": "计算机网络基础",
-          "link": "/views/计算机网络基础",
+          "link": "/views/计算机网络基础/",
           "icon": "reco-gitlab"
         },
         {
           "text": "Djiango笔记",
-          "link": "/views/Djiango笔记",
+          "link": "/views/Djiango笔记/",
           "icon": "reco-gitlab"
         }
         ]

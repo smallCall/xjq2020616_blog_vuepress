@@ -1,6 +1,7 @@
 ---
 title: 明智地使用 Windows
 date: 2020-03-07
+author: 袁波老师
 tags:
  - Windows
 categories:
