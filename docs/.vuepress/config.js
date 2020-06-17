@@ -15,7 +15,6 @@ module.exports = {
     "audio",
     {
       "autoplay": "",
-      "loop": "",
       "src":"music/Kaze_Ni_Fukarete-福原遥.mp3"
     }
   ],
@@ -38,34 +37,24 @@ module.exports = {
         "icon": "reco-home"
       },
       {
-        "text": "前端",
-        "icon": "/web.png",
-        "items":[
-            {
-            "text": "Html笔记",
-            "link": "/views/Html笔记/",
-            "icon": "reco-gitlab"
-          },
-          {
-            "text": "Css笔记",
-            "link": "/views/Css笔记/",
-            "icon": "reco-gitlab"
-          },
-           {
-            "text": "JavaScript笔记",
-            "link": "/views/JavaScript笔记/",
-            "icon": "reco-gitlab"
-          }
-        ]
+        "text": "前端基础知识",
+        "icon": "reco-faq",
+        "link":"http://www.shouce.ren/"
+
+      },
+      {
+        "text": "爬虫",
+        "icon": "reco-other",
+        "link":"http://www.shouce.ren/"
 
       },
       {
         "text": "后台",
-        "icon": "/web.png",
+        "icon": "/小电脑.png",
         "items":[
         {
-          "text": "计算机网络基础",
-          "link": "/views/计算机网络基础/",
+          "text": "Djiango官网",
+          "link": "https://docs.djangoproject.com/zh-hans/2.2/",
           "icon": "reco-gitlab"
         },
         {
